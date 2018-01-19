@@ -1,6 +1,9 @@
 {
-  "name": "bohlale",
+  "name": "bulksms",
   "version": "1.0",
+  "engines": {
+    "node": "9.4.0"
+  },
   "description": "Server App For School Bulk SMS",
   "main": "app",
   "author": "Marvin Ranyaole",

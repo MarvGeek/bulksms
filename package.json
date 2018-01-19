@@ -1,0 +1,28 @@
+{
+  "name": "bohlale",
+  "version": "1.0",
+  "description": "Server App For School Bulk SMS",
+  "main": "app",
+  "author": "Marvin Ranyaole",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.1",
+    "formidable": "^1.1.1",
+    "gridfs-stream": "^1.1.1",
+    "helmet": "^3.9.0",
+    "mkdirp": "^0.5.1",
+    "mongoose": "^4.13.1",
+    "mongoose-find-one-or-create": "^0.2.0",
+    "multer": "^1.3.0",
+    "nodemailer": "^4.0.1",
+    "nodemon": "^1.11.0",
+    "socket.io": "^1.7.3",
+    "xls-to-json": "^0.4.0",
+    "xls-to-json-lc": "^0.3.4",
+    "xlsx-to-json": "^0.3.0",
+    "xlsx-to-json-lc": "^0.5.0"
+  }
+}

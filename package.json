@@ -6,6 +6,9 @@
   },
   "description": "Server App For School Bulk SMS",
   "main": "app",
+  "scripts": {
+    "start": "node app.js"
+  },
   "author": "Marvin Ranyaole",
   "license": "MIT",
   "dependencies": {

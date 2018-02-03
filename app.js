@@ -21,7 +21,7 @@ var helmet = require('helmet');
 var registration = require('./routes/registration');
 //var db = 'mongodb://localhost/bulksms';
 //var db = 'mongodb://marv:marvgeek1603@ds261917.mlab.com:61917/bulksms';
-var mongoDB = process.env.MONGODB_URI || 'mongodb://marv:marvgeek1603@ds261917.mlab.com:61917/bulksms';
+var db = process.env.MONGODB_URI || 'mongodb://marv:marvgeek1603@ds261917.mlab.com:61917/bulksms';
 
 //Connects or Create Database
 mongoose.connect(db);

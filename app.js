@@ -1,7 +1,7 @@
 var app = require('express')();
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-var port = 3001;
+var port = process.env.PORT || 3001;
 var server = app.listen(port,function(){
 
 	console.log('Listening on port '+port);
